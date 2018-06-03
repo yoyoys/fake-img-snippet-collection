@@ -1,0 +1,16 @@
+{
+  "fakeimg": {
+		"prefix": "fakeimg",
+		"body": [
+			"\"https://fakeimg.pl/${1:width}x${2:height}/${3:color}\""
+		],
+		"description": "fakeimg.pl example: https://fakeimg.pl/300x200/C00CCC"
+	},
+  "picsum": {
+		"prefix": "picsum",
+		"body": [
+			"\"https://picsum.photos/${1:width}/${2:height}/?random=${3:1}\""
+		],
+		"description": "picsum.photos example: https://picsum.photos/500/400?random=1"
+  }
+}

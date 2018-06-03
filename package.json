@@ -1,0 +1,62 @@
+{
+    "name": "fake-img-snippet-collection",
+    "displayName": "Fake Image Snippet Collection",
+    "description": "Snippets Collection for many web-services",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yoyoys/fake-img-snippet-collection"
+    },
+    "keywords": [
+        "fakeimg",
+        "picsum",
+        "img"
+    ],
+    "version": "1.0.2",
+    "publisher": "yoyoys",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "pug",
+                "path": "./snippets/pug.json"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/css.json"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/css.json"
+            },
+            {
+                "language": "sass",
+                "path": "./snippets/css.json"
+            },
+            {
+                "language": "stylus",
+                "path": "./snippets/css.json"
+            },
+            {
+                "language": "less",
+                "path": "./snippets/css.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/markdown.json"
+            }
+        ]
+    }
+}
