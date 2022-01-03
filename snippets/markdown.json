@@ -2,14 +2,14 @@
   "fakeimg": {
 		"prefix": "fakeimg",
 		"body": [
-			"![${4:alt}](https://fakeimg.pl/$1x$2/$3)"
+			"![${4:alt}](https://fakeimg.pl/${1:300}x${2:200}/$3)"
 		],
 		"description": "fakeimg.pl example: https://fakeimg.pl/300x200/C00CCC"
 	},
   "picsum": {
 		"prefix": "picsum",
 		"body": [
-			"![${4:alt}](https://picsum.photos/$1/$2/?random=$3)"
+			"![${4:alt}](https://picsum.photos/$1/$2/?random=200)"
 		],
 		"description": "picsum.photos example: https://picsum.photos/500/400?random=1"
   }
